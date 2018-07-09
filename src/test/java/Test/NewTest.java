@@ -30,7 +30,7 @@ public class NewTest {
 	
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", "/home/himanshuchaudhary/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/qainfotech/Downloads/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("http://10.0.31.161:9292/");
 
